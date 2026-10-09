@@ -67,7 +67,7 @@ def soucet_sudych(start: int, stop: int) -> int:
 
     for i in range(start, stop+1):
         if i%2 == 0:
-            sum +=1
+            sum +=i
     return sum
 
 
